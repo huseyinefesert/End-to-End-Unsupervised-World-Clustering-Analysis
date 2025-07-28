@@ -8,7 +8,7 @@ Interactive world maps and visualizations are produced to help understand which 
 ## 🌍 Overview
 
 - **Goal:** Discover and visualize natural groupings of countries according to metrics like child mortality, GDP, health expenditure, and more.
-- **Data:** `29-country_data.csv` with 9 features per country (excluding country name).
+- **Data:** `country_data.csv` with 9 features per country (excluding country name).
 
 ---
 
@@ -46,13 +46,6 @@ Interactive world maps and visualizations are produced to help understand which 
 
 ---
 
-## 🗺️ Example Output
-
-> Below: Example of a color-coded map showing clusters for each algorithm (open HTML files for interactive map).
-
-![Cluster Map Example](https://i.imgur.com/3yBU4pU.png) <!-- Kendi haritanın ekran görüntüsünü buraya yükleyebilirsin -->
-
----
 
 ## 🛠️ Technologies & Libraries
 
@@ -69,7 +62,7 @@ Interactive world maps and visualizations are produced to help understand which 
     ```bash
     pip install pandas numpy scikit-learn plotly matplotlib seaborn hdbscan
     ```
-2. Place `29-country_data.csv` in the project directory.
+2. Place `country_data.csv` in the project directory.
 3. Run:
     ```bash
     python your_script.py
@@ -90,6 +83,3 @@ Interactive world maps and visualizations are produced to help understand which 
 
 This project was created as an unsupervised machine learning portfolio work for international socioeconomic analysis.
 
----
-
-**Feel free to fork, adapt, or contribute!**
